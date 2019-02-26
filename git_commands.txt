@@ -179,6 +179,9 @@ git branch -d <branch name>
 # we cannot delete a branch when we are in that branch
 # used to delete a branch
 ----------------------------------------------------
+git log --oneline --decorate
+# displays commit ids in single line
+-----------------------------------------------------
  git checkout -b <new_branch> <existing branch>
  # checkout and create a new branch from existing brach 
  -------------------------------------------------
