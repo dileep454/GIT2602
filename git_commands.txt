@@ -31,7 +31,7 @@ GIT Commands
  # list all the branches in local and remote
  -----------------------------------------
  git branch <branch name>
- # create a new branch
+ # create a new branch 
  -----------------------------------------
  git brach -d <branch name>
  # the command deletes the branch
@@ -83,9 +83,6 @@ GIT Commands
  -------------------------------------------------
  git log -all -grep='commit message'
  searches commits that contain a log message
- -------------------------------------------------
- git log --pretty --oneline
- # View logs in key value pairs
  -------------------------------------------------
  git log -follow <file name>
  # This command lists version history for a file, including the renaming of files also
