@@ -48,6 +48,9 @@ GIT Commands
  git checkout -b <branch name>
  # creates a branch and checkout to that branch
  --------------------------------------------
+ git push <remote url> <branch name>
+ # push the branches to the remote repository
+ ---------------------------------------------
  git checkout master
  # switches to the master branch
  -----------------------------------------------
