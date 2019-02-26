@@ -149,7 +149,7 @@ GIT Commands
  # changing git commit message after push
  -------------------------------------------------
  git config --list
- # show current configuration
+ # show current co nfiguration
  -------------------------------------------------
  git config --global --list
  # show global configuration
@@ -172,6 +172,13 @@ GIT Commands
  git branch -r
  # list all remote branches
  -------------------------------------------------
+ git branch -m <old branch name > <new branch name>
+# used to rename the branch
+--------------------------------------------------
+git branch -d <branch name>
+# we cannot delete a branch when we are in that branch
+# used to delete a branch
+----------------------------------------------------
  git checkout -b <new_branch> <existing branch>
  # checkout and create a new branch from existing brach 
  -------------------------------------------------
