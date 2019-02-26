@@ -115,6 +115,8 @@ GIT Commands
  # to view the status of working directory and stagging area
  -------------------------------------------------
  git rm <file name>
+ git commit -m "commit message"
+ git push <remote><url>
  # to remove a file 
  -------------------------------------------------
  git show
