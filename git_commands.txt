@@ -48,6 +48,9 @@ GIT Commands
  git checkout -b <branch name>
  # creates a branch and checkout to that branch
  --------------------------------------------
+ git push <remote url> <branch name>
+ # push the branches to the remote repository
+ ---------------------------------------------
  git checkout master
  # switches to the master branch
  -----------------------------------------------
@@ -131,10 +134,10 @@ GIT Commands
  git tag
  # lists all tags
  -------------------------------------------------
- git tag 1.0.0 <commitID>
+ git tag <version_name> <commitID>
  # You can use tagging to mark a significant changeset such as a release
  -------------------------------------------------
- git push --tags
+ git push --tags <remote url>
  # push all tags to remote repository
  -------------------------------------------------
  git cherry-pick <file name>
